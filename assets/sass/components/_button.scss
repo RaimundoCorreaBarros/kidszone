@@ -1,0 +1,27 @@
+.btn-amarillo {
+    background-color: $amarillo;
+    color: $white;
+
+    &:hover {
+        color: $white;
+        background-color: #E1E813;
+    }
+}
+
+.btn-verde {
+    background-color: $verde;
+    color: $white;
+
+    &:hover {
+        color: $white;
+    }
+}
+
+.btn-rojo {
+    background-color: $rojo;
+    color: $white;
+
+    &:hover {
+        color: $white;
+    }
+}

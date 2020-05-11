@@ -1,0 +1,27 @@
+.bg-color {
+    background-color: $white;
+}
+
+.navbar__links {
+    margin-right: 5rem;
+}
+
+.navbar__logo img {
+    height: 2.3rem;
+    width: auto;
+}
+
+.navbar__inconos {
+    display: flex;
+    align-items: flex-end;
+
+    img {
+        height: 2rem;
+        width: auto;
+        transition: transform .8s ease-in-out;
+
+        &:hover {
+            transform: rotate(360deg);
+        }
+    }
+}

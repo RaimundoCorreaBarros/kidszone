@@ -1,0 +1,12 @@
+.especiales {
+    background-color: $verde-t;
+    @include seccion;
+}
+
+.especiales__titulo {
+    @include titulo;
+}
+
+.especiales__card {
+    margin: 2rem;
+}

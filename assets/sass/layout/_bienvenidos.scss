@@ -1,0 +1,17 @@
+.bienvenidos {
+    @include seccion
+}
+
+.bienvenidos__titulo {
+    @include titulo;
+}
+
+.bienvenidos__img img {
+    height: 300px;
+    width: auto;
+    border-radius: 3em;
+}
+
+.bienvenidos__textos {
+    text-align: left;
+}

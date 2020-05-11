@@ -1,0 +1,10 @@
+@mixin titulo {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+@mixin seccion {
+    padding-top: 2rem;
+    padding-bottom: 5rem; 
+}
