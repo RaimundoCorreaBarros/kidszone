@@ -1,12 +1,11 @@
 .programa {
-    background-color: $celeste-t;
+    background-color: $celeste;
     @include seccion;
+    h2 {
+        color: $white;
+    }
 }
 
 .programa__titulo {
     @include titulo;
-}
-
-.programa__card {
-    background-color: $white;
 }

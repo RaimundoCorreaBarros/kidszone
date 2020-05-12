@@ -1,27 +1,52 @@
 .btn-amarillo {
     background-color: $amarillo;
     color: $white;
+    padding: .5rem 2rem;
+    border-radius: 10em;
+    margin-top: 2rem;
 
     &:hover {
         color: $white;
-        background-color: #E1E813;
+        background-color: $amarillo-t;
     }
 }
 
 .btn-verde {
     background-color: $verde;
     color: $white;
+    padding: .5rem 2rem;
+    border-radius: 10em;
+    margin-top: 2rem;
 
     &:hover {
         color: $white;
+        background-color: $verde-t;
     }
 }
 
 .btn-rojo {
     background-color: $rojo;
     color: $white;
+    padding: .5rem 2rem;
+    border-radius: 10em;
+    margin-top: 2rem;
 
     &:hover {
         color: $white;
+        background-color: $rojo-t;
     }
+}
+
+.btn-celeste {
+    background-color: $celeste;
+    color: $white;
+    padding: .5rem 2rem;
+    border-radius: 10em;
+    margin-top: 2rem;
+
+    &:hover {
+        color: $white;
+        background-color: $celeste-t;
+    }
+
 }

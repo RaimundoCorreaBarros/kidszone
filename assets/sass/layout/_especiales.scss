@@ -1,12 +1,21 @@
 .especiales {
-    background-color: $verde-t;
+    background-color: $verde;
     @include seccion;
+    h2 {
+        color: $white;
+    }
 }
 
 .especiales__titulo {
     @include titulo;
 }
 
-.especiales__card {
-    margin: 2rem;
+.especiales__tarjetas {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 40% 40%;
+}
+
+.especiales_card {
+    margin: 2rem 2.5rem;
 }

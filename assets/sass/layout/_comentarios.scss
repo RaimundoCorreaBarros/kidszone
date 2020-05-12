@@ -1,0 +1,20 @@
+.comentarios {
+    @include seccion;
+}
+
+.comentarios__titulo {
+    @include titulo;
+}
+
+.comentarios__padres {
+    text-align: center;
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+.carousel-indicators{
+    
+}
