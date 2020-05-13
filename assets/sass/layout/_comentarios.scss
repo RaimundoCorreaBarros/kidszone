@@ -1,5 +1,11 @@
 .comentarios {
     @include seccion;
+    img {
+        text-align: center;
+        width: 150px;
+        height: 150px;
+        margin-bottom: 1rem;
+    }
 }
 
 .comentarios__titulo {
@@ -8,13 +14,22 @@
 
 .comentarios__padres {
     text-align: center;
-    img {
-        width: 100px;
-        height: 100px;
+    color: $gris;
+}
+
+.comentarios__indicador li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    color: $gris;
+    bottom: -35px;
+
+    li {
+        background-color: $gris;   
     }
-
 }
 
-.carousel-indicators{
-    
-}
+

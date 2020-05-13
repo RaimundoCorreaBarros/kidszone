@@ -6,10 +6,23 @@
     @include titulo;
 }
 
-.bienvenidos__img img {
-    height: 300px;
-    width: auto;
-    border-radius: 3em;
+.bienvenidos__img {
+    text-align: center;
+    img {
+        height: 300px;
+        width: auto;
+        border-radius: 2.5em;
+    }
+}
+
+@media (max-width: 576px) {
+    .bienvenidos__img {        
+        order: 2;
+    }
+    .bienvenidos__textos {
+        order: 1;
+        margin-bottom: 1.5rem;
+    }
 }
 
 .bienvenidos__textos {
