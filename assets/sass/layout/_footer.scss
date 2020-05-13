@@ -1,0 +1,20 @@
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: $gris;
+    line-height: 0.5rem;
+    color: $white;
+
+    h4 {
+        font-weight: 400;
+        color: $amarillo;
+    }
+}
+
+.footer__logo {
+    text-align: center;
+    margin-bottom: 2rem;
+    img {
+        width: 200px;
+    }
+}

@@ -1,5 +1,4 @@
-.contacto {
-    
+.contacto {    
     background-color: $amarillo;
     @include seccion;
     h2 {
@@ -11,28 +10,9 @@
     @include titulo;
 }
 
-.contacto__cuerpo {
-    display: grid;
-    grid-template-columns: .8fr 1fr;
-}
-
-.contacto_formulario {
-    grid-column: 1;
-    padding: 0 2rem;
-
-}
-
-.contacto__datos {
-    grid-column: 2;
-    padding: 0 2rem;
-}
-
 .contacto__btn {
-    text-align: right;
-}
-
-.btn__contacto {
+    text-align: left;
     margin-top: 0;
+    margin-bottom: 1rem;
 }
-
 

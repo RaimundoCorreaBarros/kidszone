@@ -18,7 +18,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand navbar__logo" href="#"><img src="assets/images/logo.png" alt=""></a>
+        <a class="navbar-brand navbar__logo" href="#"><img src="assets/images/logo-2.png" alt=""></a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0 navbar__links">
@@ -88,32 +88,46 @@
         <div class="programa__titulo">
           <h2>Nuestros talleres</h2>
         </div>
-        <div class="card-deck">
-          <div class="card col-12 col-sm-6 col-md-4">
-            <img src="assets/images/yoga.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Yoga</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Miercoles</small></p>
+
+        <div class="container d-flex justify-content-center">          
+  
+          <div class="row">    
+            <div class="col-12 col-sm-4 d-flex justify-content-center">
+              <div class="card mb-4" style="width: 18rem;">
+                <img src="assets/images/yoga.jpg" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Yoga</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Miercoles</small></p>               
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12 col-sm-4 d-flex justify-content-center">
+              <div class="card mb-4" style="width: 18rem;">
+                <img src="assets/images/cocina.jpg" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Cocina</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Jueves</small></p>             
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-4 d-flex justify-content-center">
+              <div class="card mb-4" style="width: 18rem;">
+                <img src="assets/images/arte.jpg" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Arte</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Martes</small></p>          
+                </div>
+              </div>
             </div>
           </div>
-          <div class="card col-12 col-sm-6 col-md-4">
-            <img src="assets/images/cocina.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Cocina</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <p class="card-text"><small class="text-muted">Jueves</small></p>
-            </div>
-          </div>
-          <div class="card col-12 col-sm-6 col-md-4">
-            <img src="assets/images/arte.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Arte</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <p class="card-text"><small class="text-muted">Martes</small></p>
-            </div>
-          </div>
+
         </div>
+
       </div>
     </section>
 
@@ -127,7 +141,7 @@
         <div class="container d-flex justify-content-center">          
   
             <div class="row">    
-              <div class="col-sm-6">
+              <div class="col-12 col-sm-6 d-flex justify-content-center">
                   <div class="card mb-4" style="width: 18rem;">
                     <img src="assets/images/cumpleaños.jpg" alt="">
                     <div class="card-body">
@@ -137,7 +151,7 @@
                   </div>
               </div>
               
-              <div class="col-sm-6">
+              <div class="col-12 col-sm-6 d-flex justify-content-center">
                   <div class="card mb-4" style="width: 18rem;">
                     <img src="assets/images/halloween.jpg" alt="">
                     <div class="card-body">
@@ -148,11 +162,11 @@
               </div>
             </div>
 
-          </div>
-          <div class="container d-flex justify-content-center">          
+        </div>
+        <div class="container d-flex justify-content-center">          
   
           <div class="row">    
-            <div class="col-sm-6">
+            <div class="col-12 col-sm-6 d-flex justify-content-center"">
                 <div class="card mb-4" style="width: 18rem;">
                   <img src="assets/images/cumpleaños.jpg" alt="">
                   <div class="card-body">
@@ -162,7 +176,7 @@
                 </div>
             </div>
             
-            <div class="col-sm-6">
+            <div class="col-12 col-sm-6 d-flex justify-content-center"">
                 <div class="card mb-4" style="width: 18rem;">
                   <img src="assets/images/halloween.jpg" alt="">
                   <div class="card-body">
@@ -229,31 +243,32 @@
       <div class="contacto__titulo">
         <h2>Contacto</h2>
       </div>
-      <div class="container contacto__cuerpo ">
-        
-            <div class="contacto_formulario">
+      <div class="d-flex justify-content-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-7">
               <form action="" method="post">
-                <div class="row">
-                  <div class="col-12">
+                <div>
+                  <div>
                     <input type="text" name="nombre" class="form-control" placeholder="Nombre"><br>
                   </div>
-                  <div class="col-12 ">
+                  <div>
                     <input type="email" name="email" class="form-control" placeholder="email"><br>
                   </div>
-                  <div class="col-12">
+                  <div>
                     <input type="text" name="asunto" class="form-control" placeholder="asunto"><br>
                   </div>
-                  <div class="col-12">
+                  <div>
                     <textarea type="text" name="asunto" class="form-control" placeholder="mensaje"></textarea><br>
                   </div>
-                  <div class="col-12 contacto__btn">
-                    <button type="submit" value="Enviar" class="btn btn-celeste btn__contacto">Enviar</button>
+                  <div class="contacto__btn">
+                    <button type="submit" value="Enviar" class="btn btn-celeste contacto__btn">Enviar</button>
                   </div>         
                 </div>
               </form>
             </div>
   
-            <div class="contacto__datos" >
+            <div class="col-12 col-md-5" >
                 <h3>KidsZone After school</h3>
                 <h5>Ubicación</h5>
                 <p>Antonio Varas 2382 -ñuñoa</p>
@@ -262,8 +277,11 @@
                 <p>569 9871 4733</p>          
     
             </div>
+          </div>
+        </div>
       </div>
-
+      <div class="container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.0102156021426!2d-70.61250038565095!3d-33.44904038077442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf8549192309%3A0x80062d929df841db!2sAntonio%20Varas%202382%2C%20%C3%91u%C3%B1oa%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1589323175367!5m2!1ses-419!2scl" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
 
     </section>
@@ -271,6 +289,30 @@
 
     <!-- Footer -->
     <footer>
+      <div class="footer__logo">
+        <img src="assets/images/logo-kidszone.png" alt="">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-3">
+            <h4>e-mail</h4>
+            <p>contacto@kidszone.cl</p>
+          </div>
+          <div class="col-12 col-sm-3">
+            <h4>Dirección</h4>
+            <p>Antonio Varas 2382</p>
+          </div>
+          <div class="col-12 col-sm-3">
+            <h4>Teléfonos</h4>
+            <p>+569 8751 4733</p>
+            <p>2288 583 50</p>
+          </div>
+          <div class="col-12 col-sm-3">
+            <h4>Mapa del Sitio</h4>
+          </div>
+        </div>
+
+      </div>
 
     </footer>
 

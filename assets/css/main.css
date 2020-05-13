@@ -10429,27 +10429,30 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 3rem;
 }
 
-.contacto__cuerpo {
-  display: grid;
-  grid-template-columns: 0.8fr 1fr;
-}
-
-.contacto_formulario {
-  grid-column: 1;
-  padding: 0 2rem;
-}
-
-.contacto__datos {
-  grid-column: 2;
-  padding: 0 2rem;
-}
-
 .contacto__btn {
-  text-align: right;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
-.btn__contacto {
-  margin-top: 0;
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #1a3243;
+  line-height: 0.5rem;
+  color: #fff;
+}
+footer h4 {
+  font-weight: 400;
+  color: #ffc520;
+}
+
+.footer__logo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.footer__logo img {
+  width: 200px;
 }
 
 /*# sourceMappingURL=main.css.map */
