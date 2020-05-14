@@ -10241,7 +10241,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-amarillo:hover {
   color: #fff;
-  background-color: #FFF014;
+  background-color: #FFC421;
   box-shadow: 0 0 3px #1a3243;
 }
 
@@ -10253,7 +10253,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-verde:hover {
   color: #fff;
-  background-color: #04B81F;
+  background-color: #04B852;
   box-shadow: 0 0 3px #1a3243;
 }
 
@@ -10265,7 +10265,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-rojo:hover {
   color: #fff;
-  background-color: #DE5433;
+  background-color: #DE3C33;
   box-shadow: 0 0 3px #1a3243;
 }
 
@@ -10277,7 +10277,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-celeste:hover {
   color: #fff;
-  background-color: #0ACCBF;
+  background-color: #0A72CC;
   box-shadow: 0 0 3px #1a3243;
 }
 
@@ -10398,12 +10398,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 3rem;
 }
 
-@media (max-width: 576px) {
-  .especial__img {
-    width: 280px;
-    height: 170px;
-  }
-}
 .comentarios {
   padding-top: 2rem;
   padding-bottom: 5rem;
