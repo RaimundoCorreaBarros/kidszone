@@ -3,11 +3,11 @@
     color: $white;
     padding: .5rem 2rem;
     border-radius: 10em;
-    margin-top: 2rem;
 
     &:hover {
         color: $white;
         background-color: $amarillo-t;
+        box-shadow: 0 0 3px $gris;
     }
 }
 
@@ -16,11 +16,11 @@
     color: $white;
     padding: .5rem 2rem;
     border-radius: 10em;
-    margin-top: 2rem;
 
     &:hover {
         color: $white;
         background-color: $verde-t;
+        box-shadow: 0 0 3px $gris;
     }
 }
 
@@ -29,11 +29,11 @@
     color: $white;
     padding: .5rem 2rem;
     border-radius: 10em;
-    margin-top: 2rem;
 
     &:hover {
         color: $white;
         background-color: $rojo-t;
+        box-shadow: 0 0 3px $gris;
     }
 }
 
@@ -42,11 +42,11 @@
     color: $white;
     padding: .5rem 2rem;
     border-radius: 10em;
-    margin-top: 2rem;
 
     &:hover {
         color: $white;
         background-color: $celeste-t;
+        box-shadow: 0 0 3px $gris;
     }
 
 }
