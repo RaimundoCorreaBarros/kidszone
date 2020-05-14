@@ -10,17 +10,7 @@
     @include titulo;
 }
 
-.especiales__tarjetas {
-    display: grid;
-    grid-template-columns: 40% 40%;
-    grid-template-rows: 40% 40%;
-}
-
-.especiales_card {
-    margin: 2rem 2.5rem;
-}
-
-.especial__img img {
-    width: 18rem;
-    height: 13rem
+.especial__img {
+    width: 140px;
+    height: 170px;
 }
