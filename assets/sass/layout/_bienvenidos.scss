@@ -18,6 +18,11 @@
 @media (max-width: 576px) {
     .bienvenidos__img {        
         order: 2;
+
+        img {
+            width: 80%;
+            height: auto;
+        }
     }
     .bienvenidos__textos {
         order: 1;

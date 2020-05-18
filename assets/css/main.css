@@ -10286,7 +10286,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar__links {
-  margin-right: 5rem;
+  margin: 0 auto;
+  font-weight: 700;
 }
 
 .navbar__logo img {
@@ -10357,6 +10358,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 576px) {
   .bienvenidos__img {
     order: 2;
+  }
+  .bienvenidos__img img {
+    width: 80%;
+    height: auto;
   }
 
   .bienvenidos__textos {
