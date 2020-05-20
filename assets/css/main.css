@@ -10225,12 +10225,13 @@ img {
 }
 
 body {
-  font-family: "Crushed", cursive;
+  font-family: "Raleway", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   color: #1a3243;
+  font-family: "Crushed", cursive;
 }
 
 .btn-amarillo {
