@@ -2,7 +2,15 @@ body {
     font-family: $raleway;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    color: $gris;
     font-family: $crushed;
+    font-weight: $bold;
+    color: $gris;
+}
+p {
+    font-weight: $regular;
+    color: #000;
+}
+
+.texto {
+    color: #fff;
 }

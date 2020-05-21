@@ -26,3 +26,26 @@
         }
     }
 }
+
+.navbar-nav {
+    a {
+        text-decoration: none;
+        line-height: 10px;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+    
+    a:hover, a:focus {
+        background-size: 100% 2px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {    
+        a:hover, a:focus {
+        background-size: 0% 2px;
+    }}
+}

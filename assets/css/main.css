@@ -10229,9 +10229,18 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  color: #1a3243;
   font-family: "Crushed", cursive;
+  font-weight: 700;
+  color: #1a3243;
+}
+
+p {
+  font-weight: 400;
+  color: #000;
+}
+
+.texto {
+  color: #fff;
 }
 
 .btn-amarillo {
@@ -10282,6 +10291,23 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 0 3px #1a3243;
 }
 
+.animado {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.animadoArriba {
+  animation: arriba 1s;
+}
+
+@keyframes arriba {
+  0% {
+    transform: translateY(60px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .bg-color {
   background-color: #fff;
 }
@@ -10309,6 +10335,24 @@ h1, h2, h3, h4, h5, h6 {
   transform: rotate(360deg);
 }
 
+.navbar-nav a {
+  text-decoration: none;
+  line-height: 10px;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.navbar-nav a:hover, .navbar-nav a:focus {
+  background-size: 100% 2px;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav a:hover, .navbar-nav a:focus {
+    background-size: 0% 2px;
+  }
+}
 .main {
   position: relative;
   background-image: url("../images/main_72dpi.jpg");
@@ -10356,7 +10400,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 2.5em;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .bienvenidos__img {
     order: 2;
   }
@@ -10382,11 +10426,25 @@ h1, h2, h3, h4, h5, h6 {
 .programa h2 {
   color: #fff;
 }
+.programa p {
+  text-align: left;
+}
 
 .programa__titulo {
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 3rem;
+}
+
+.card-footer {
+  border: 0;
+  border-radius: 0 !important;
+  background-color: #fff;
+}
+
+.programa__img {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 
 .especiales {
@@ -10397,11 +10455,18 @@ h1, h2, h3, h4, h5, h6 {
 .especiales h2 {
   color: #fff;
 }
+.especiales p {
+  text-align: left;
+}
 
 .especiales__titulo {
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 3rem;
+}
+
+.especiales__img {
+  border-radius: 0.25rem;
 }
 
 .comentarios {
@@ -10482,6 +10547,11 @@ footer h4 {
 }
 .footer__logo img {
   width: 200px;
+}
+
+.formulario {
+  padding-top: 5rem;
+  background-color: #ffc520;
 }
 
 /*# sourceMappingURL=main.css.map */

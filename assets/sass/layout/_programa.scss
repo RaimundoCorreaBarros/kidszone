@@ -4,8 +4,23 @@
     h2 {
         color: $white;
     }
+    p {
+        text-align: left;
+    }
 }
 
 .programa__titulo {
     @include titulo;
+}
+
+.card-footer {
+    border: 0;
+    border-radius: 0 !important;
+    background-color: $white;
+    
+}
+
+.programa__img {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
 }

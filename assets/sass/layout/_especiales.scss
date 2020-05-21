@@ -1,8 +1,13 @@
 .especiales {
     background-color: $verde;
     @include seccion;
+
     h2 {
         color: $white;
+    }
+
+    p {
+        text-align: left;
     }
 }
 
@@ -10,5 +15,7 @@
     @include titulo;
 }
 
-
+.especiales__img {
+    border-radius: 0.25rem;
+}
 
