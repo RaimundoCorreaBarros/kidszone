@@ -20,7 +20,14 @@
     
 }
 
-.programa__img {
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
+.programa__card-img {
+    text-align: center;
+}
+
+.programa__card-img img {
+    position: relative;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 15px 3px $amarillo;
+    max-width: 92%;
+    top: -20px
 }
