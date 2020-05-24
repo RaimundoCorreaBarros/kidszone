@@ -1,9 +1,6 @@
 .programa {
-    background-color: $celeste;
     @include seccion;
-    h2 {
-        color: $white;
-    }
+
     p {
         text-align: left;
     }
@@ -13,21 +10,31 @@
     @include titulo;
 }
 
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
 .card-footer {
     border: 0;
     border-radius: 0 !important;
-    background-color: $white;
-    
+    background-color: $white;    
 }
 
 .programa__card-img {
-    text-align: center;
+    margin-top: -1.25rem;
+    margin-right: 4%;
+    margin-left: 4%;
+    
+    img {
+        position: relative;
+        border-radius: .25rem;
+        -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+        box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    }
 }
 
-.programa__card-img img {
-    position: relative;
-    border-radius: 0.3rem;
-    box-shadow: 0 0 15px 3px $amarillo;
-    max-width: 92%;
-    top: -20px
+
+
+.programa__btn {
+    text-align: center;
 }

@@ -49,3 +49,8 @@
         background-size: 0% 2px;
     }}
 }
+
+.navbar-light .navbar-nav .nav-link.active {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 100% 2px;
+}

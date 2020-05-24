@@ -50,3 +50,17 @@
     }
 
 }
+
+.btn-gris {
+    background-color: $gris;
+    color: $white;
+    padding: .5rem 2rem;
+    border-radius: 10em;
+
+    &:hover {
+        color: $white;
+        background-color: $gris-t;
+        box-shadow: 0 0 3px $gris;
+    }
+
+}

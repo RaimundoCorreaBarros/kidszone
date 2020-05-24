@@ -1,10 +1,5 @@
 .especiales {
-    background-color: $verde;
     @include seccion;
-
-    h2 {
-        color: $white;
-    }
 
     p {
         text-align: left;
@@ -16,6 +11,16 @@
 }
 
 .especiales__img {
-    border-radius: 0.25rem;
+    
+    
 }
 
+.especial__card-img {
+    margin:-1.25rem -1rem 0 -1rem;
+
+    img {
+        border-radius: 0.25rem;
+        -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+        box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    }
+}
