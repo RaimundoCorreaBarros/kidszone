@@ -10432,6 +10432,7 @@ p {
 }
 
 .programa {
+  background-color: #f9f6f1;
   padding-top: 0;
   padding-bottom: 5rem;
 }
@@ -10446,6 +10447,7 @@ p {
 }
 
 .card {
+  border-radius: 0.25rem;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -10495,6 +10497,7 @@ p {
 }
 
 .comentarios {
+  background-color: #f9f6f1;
   padding-top: 0;
   padding-bottom: 5rem;
 }
@@ -10537,6 +10540,10 @@ p {
 .contacto h2 {
   color: #fff;
 }
+.contacto p {
+  color: #fff;
+  font-weight: lighter;
+}
 
 .contacto__titulo {
   text-align: center;
@@ -10564,6 +10571,10 @@ footer {
 footer h4 {
   font-weight: 400;
   color: #ffc520;
+}
+footer p {
+  color: #fff;
+  font-weight: lighter;
 }
 
 .footer__logo {

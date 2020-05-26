@@ -1,4 +1,5 @@
 .comentarios {
+    background-color: $fondo-1;
     @include seccion;
     img {
         text-align: center;
@@ -8,7 +9,7 @@
     }
 }
 
-.comentarios__titulo {
+.comentarios__titulo {    
     @include titulo;
     position: relative;
 }
@@ -26,7 +27,6 @@
     color: $gris;
     bottom: -35px;
     position: absolute;
-
 
     li {
         background-color: $rojo; 
