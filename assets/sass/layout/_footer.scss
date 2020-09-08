@@ -14,6 +14,15 @@ footer {
         color: $white;
         
     }
+    a {
+        
+        color: $white;
+        
+        &:hover {
+            color: $amarillo;
+            text-decoration: none;
+        }
+    }
 }
 
 .footer__logo {

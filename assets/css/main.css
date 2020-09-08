@@ -10615,6 +10615,13 @@ footer h4 {
 footer p {
   color: #fff;
 }
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #ffc520;
+  text-decoration: none;
+}
 
 .footer__logo {
   text-align: center;
