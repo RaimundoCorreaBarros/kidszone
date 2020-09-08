@@ -4,6 +4,10 @@
     p {
         text-align: left;
     }
+
+    i {
+        color: $verde;
+    }
 }
 
 .especiales__titulo {
@@ -22,5 +26,23 @@
         border-radius: 0.25rem;
         -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
         box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    }
+}
+
+.especial__l {
+    margin-right: 10rem;
+}
+
+.especial__r {
+    margin-left: 10rem;
+}
+
+@media (max-width: 576px) {
+    .especial__l {
+        margin-right: 2rem;
+    }
+    
+    .especial__r {
+        margin-left: 2rem;
     }
 }

@@ -5,6 +5,28 @@
     p {
         text-align: left;
     }
+
+    i {
+        color: $celeste;
+    }
+}
+
+.programa__l {
+    margin-right: 5rem;
+}
+
+.programa__r {
+    margin-left: 5rem;
+}
+
+@media (max-width: 576px) {
+    .programa__l {
+        margin-right: 1rem;
+    }
+    
+    .programa__r {
+        margin-left: 1rem;
+    }
 }
 
 .programa__titulo {
